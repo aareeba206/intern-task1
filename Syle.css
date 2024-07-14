@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar-section {
+    background-color: lightgray;
+    width: 20%;
+    min-width: 250px;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.menu-icon {
+    float: left;
+    width: 10%;
+    height: 10%;
+    background-color: lightgray;
+    margin: 5px;
+    radius: 5px;
+}
+
+.sidebar-buttons {
+    background-color: darkgray;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+
+    .sidebar-buttons:hover {
+        background-color: gray;
+    }
+
+.recent {
+    margin: 20px;
+}
+
+#show-more {
+    background-color: darkgrey;
+    display: inline;
+}
+
+.control-buttons {
+    width: 60px;
+    height: 30px;
+    background-color: lightgray;
+    margin: 5px;
+    border-radius: 10px;
+    display: inline;
+}
+
+    .control-buttons:hover {
+        background-color: darkgray;
+    }
+
+.buttons {
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+    .buttons:hover {
+        color: blue;
+    }
+
+    .buttons i {
+        margin-right: 10px;
+    }
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+.location {
+    font-size: small;
+    color: black;
+}
+
+.font {
+    color: blue;
+    font-size: small;
+}
+
+.top-bar {
+    background-color: white;
+    height: 40px;
+    width: 980px;
+}
+
+.gemini {
+    margin: 5px;
+    float: left;
+}
+
+.gemini-icon {
+    float: right;
+    margin: 5px;
+    width: 150px;
+    height: 25px;
+    margin-right: 25px;
+}
+
+.profile {
+    width: 20px;
+    height: 30px;
+    float: right;
+    margin: 5px;
+}
+
+.header {
+    background-color: navy;
+    width: 980px;
+    height: 20px;
+    text-align: center;
+}
+
+.exit-button {
+    float: right;
+    color: white;
+    margin: 3px;
+    margin-right: 10px;
+    background-color: navy;
+}
+
+.link {
+    color: white;
+}
+
+#hi {
+    color: palevioletred;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+#help {
+    color: lightgrey;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 170px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: lightgray;
+    border-radius: 7px;
+    margin: 0px 3px;
+    position: relative;
+    padding: 10px;
+}
+
+.water {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    width: 3px;
+    height: 3px;
+}
+
+.promt-button {
+    width: 60%;
+    background-color: lightgray;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: 185px;
+}
+
+    .promt-button:hover {
+        background-color: darkgrey;
+    }
+
+.footer {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.linkk {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 5px;
+}
